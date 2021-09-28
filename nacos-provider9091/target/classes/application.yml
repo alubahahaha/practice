@@ -1,0 +1,26 @@
+server:
+  port: 9091
+  # Spring boot application
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+dubbo:
+  application:
+    name: user-service-provider
+  scan:
+    base-packages: com.hayward.demo.dubboprovider
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: zookeeper://10.1.5.212:21810
+  provider:
+    timeout: 100000
+
+provider:
+  service:
+    version: 1.0.0

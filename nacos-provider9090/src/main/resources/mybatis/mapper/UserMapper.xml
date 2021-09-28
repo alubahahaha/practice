@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hayward.demo.dubboapi.dao.UserDao">
+
+    <select id="findById" resultType="com.hayward.demo.dubboapi.entity.User">
+        SELECT * FROM user WHERE user_id = #{userId}
+    </select>
+</mapper>

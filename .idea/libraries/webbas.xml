@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="webbas">
+    <CLASSES>
+      <root url="file://$MAVEN_REPOSITORY$/webbas" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$MAVEN_REPOSITORY$/webbas" />
+    </SOURCES>
+    <jarDirectory url="file://$MAVEN_REPOSITORY$/webbas" recursive="false" />
+    <jarDirectory url="file://$MAVEN_REPOSITORY$/webbas" recursive="false" type="SOURCES" />
+  </library>
+</component>
